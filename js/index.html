@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NES Dendy</title>
+    <meta charset="utf8" />
+    <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="game.js"></script>
+    <script>let g;</script>
+</head>
+<body onload="g = new game()">
+
+    <canvas id="viewport" width="256" height="240" style="width: 768px; height: 720px;"></canvas>
+
+    <center>
+    <select onchange="g.load('rom/' + this.value)">
+        <option value="mario.nes">Mario</option>
+        <option value="bros.nes">Mario Bros. 1</option>
+        <option value="battle.nes">Tanks</option>
+        <option value="nutsmilk.nes">Nuts</option>
+        <option value="sokoban.nes">Sokoban</option>
+        <option value="loderunner.nes">Lode Runner</option>
+        <option value="unchained.nes">Unchained</option>
+        <option value="contra.nes">Contra</option>
+    </select>
+    </center>
+
+</body>
+</html>
