@@ -1,0 +1,50 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Mon Nov  4 08:30:04 2019
+[*]
+[dumpfile] "/disk/dev/nes/fpga6502/main.vcd"
+[dumpfile_mtime] "Mon Nov  4 08:22:46 2019"
+[dumpfile_size] 214828
+[savefile] "/disk/dev/nes/fpga6502/wave.gtkw"
+[timestart] 0
+[size] 1920 1029
+[pos] -1 -1
+*-6.000000 60 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] main.
+[sst_width] 248
+[signals_width] 203
+[sst_expanded] 1
+[sst_vpaned_height] 302
+@28
+[color] 3
+main.clock
+[color] 3
+main.clock_25
+@800200
+-Pinout
+@28
+[color] 3
+main.NESCESSOR.bus
+@22
+[color] 2
+main.NESCESSOR.pin_address[15:0]
+[color] 2
+main.NESCESSOR.pin_ppuaddr[15:0]
+[color] 2
+main.NESCESSOR.pin_i[7:0]
+[color] 2
+main.NESCESSOR.pin_o[7:0]
+@28
+[color] 2
+main.NESCESSOR.pin_w
+@1000200
+-Pinout
+@22
+[color] 7
+main.NESCESSOR.microcode[4:0]
+@23
+main.NESCESSOR.opcode[7:0]
+@28
+main.NESCESSOR.pin_read
+[pattern_trace] 1
+[pattern_trace] 0

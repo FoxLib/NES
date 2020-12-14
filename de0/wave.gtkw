@@ -1,0 +1,98 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sat Aug 24 13:44:25 2019
+[*]
+[dumpfile] "/disk/dev/nes/de0/main.vcd"
+[dumpfile_mtime] "Sat Aug 24 13:44:04 2019"
+[dumpfile_size] 220059
+[savefile] "/disk/dev/nes/de0/wave.gtkw"
+[timestart] 19189
+[size] 1920 1029
+[pos] -1 -1
+*-10.000000 22860 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] main.
+[sst_width] 248
+[signals_width] 210
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@28
+[color] 7
+main.clk
+[color] 7
+main.CentralUnitProcessor.pin_clock
+[color] 7
+main.PixelProcessingUnit.clock_ppu
+[color] 7
+main.CentralUnitProcessor.pin_ce
+@22
+[color] 3
+main.CentralUnitProcessor.st[4:0]
+[color] 2
+main.CentralUnitProcessor.pin_address[15:0]
+[color] 2
+main.CentralUnitProcessor.pc[7:0]
+main.CentralUnitProcessor.ip[15:0]
+main.CentralUnitProcessor.opcode[7:0]
+main.CentralUnitProcessor.pin_i[7:0]
+main.CentralUnitProcessor.pin_o[7:0]
+@28
+main.CentralUnitProcessor.pin_w
+@c00200
+-Regs
+@22
+[color] 5
+main.CentralUnitProcessor.A[7:0]
+[color] 5
+main.CentralUnitProcessor.P[7:0]
+[color] 5
+main.CentralUnitProcessor.S[7:0]
+[color] 5
+main.CentralUnitProcessor.X[7:0]
+[color] 5
+main.CentralUnitProcessor.Y[7:0]
+@1401200
+-Regs
+@800200
+-PPU
+@28
+main.PixelProcessingUnit.cpu_cnt[1:0]
+@22
+main.PixelProcessingUnit.x[9:0]
+main.PixelProcessingUnit.y[9:0]
+main.PixelProcessingUnit.X[8:0]
+main.PixelProcessingUnit.Y[8:0]
+main.PixelProcessingUnit.cursor[10:0]
+@c00022
+main.PixelProcessingUnit.cursor_chr[12:0]
+@28
+(0)main.PixelProcessingUnit.cursor_chr[12:0]
+(1)main.PixelProcessingUnit.cursor_chr[12:0]
+(2)main.PixelProcessingUnit.cursor_chr[12:0]
+(3)main.PixelProcessingUnit.cursor_chr[12:0]
+(4)main.PixelProcessingUnit.cursor_chr[12:0]
+(5)main.PixelProcessingUnit.cursor_chr[12:0]
+(6)main.PixelProcessingUnit.cursor_chr[12:0]
+(7)main.PixelProcessingUnit.cursor_chr[12:0]
+(8)main.PixelProcessingUnit.cursor_chr[12:0]
+(9)main.PixelProcessingUnit.cursor_chr[12:0]
+(10)main.PixelProcessingUnit.cursor_chr[12:0]
+(11)main.PixelProcessingUnit.cursor_chr[12:0]
+(12)main.PixelProcessingUnit.cursor_chr[12:0]
+@1401200
+-group_end
+@22
+main.PixelProcessingUnit.PPUX[8:0]
+main.PixelProcessingUnit.PPUY[8:0]
+@28
+main.PixelProcessingUnit.sp_hit
+@22
+main.PixelProcessingUnit.cursor_oam[7:0]
+main.PixelProcessingUnit.data_oam[7:0]
+main.PixelProcessingUnit.sp_icon[7:0]
+main.PixelProcessingUnit.sp_counter[3:0]
+@29
+main.PixelProcessingUnit.sp_icon_id[2:0]
+@1000200
+-PPU
+[pattern_trace] 1
+[pattern_trace] 0

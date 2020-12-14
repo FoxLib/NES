@@ -1,0 +1,128 @@
+[*]
+[*] GTKWave Analyzer v3.3.71 (w)1999-2016 BSI
+[*] Wed Jun 06 15:41:10 2018
+[*]
+[dumpfile] "C:\Users\Foxtail\Marsohod2\projects\05_nes\nes.vcd"
+[dumpfile_mtime] "Wed Jun 06 15:29:05 2018"
+[dumpfile_size] 406978
+[savefile] "C:\Users\Foxtail\Marsohod2\projects\05_nes\debug.gtkw"
+[timestart] 8239
+[size] 1920 1017
+[pos] -1 -1
+*-7.000000 8330 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] main.
+[treeopen] main.CPU.
+[treeopen] main.PPU.
+[sst_width] 219
+[signals_width] 218
+[sst_expanded] 1
+[sst_vpaned_height] 315
+@28
+[color] 2
+main.clk
+[color] 2
+main.ppuclk
+[color] 2
+main.cpuclk
+[color] 3
+main.CPU.debug_clk
+@22
+main.CPU.ADDR[15:0]
+main.CPU.DIN[7:0]
+[color] 6
+main.CPU.EA[15:0]
+main.CPU.DOUT[7:0]
+main.CPU.MS[4:0]
+@28
+main.CPU.WREQ
+@800200
+-Regs
+@22
+[color] 5
+main.CPU.A[7:0]
+[color] 5
+main.CPU.X[7:0]
+[color] 5
+main.CPU.Y[7:0]
+[color] 5
+main.CPU.S[7:0]
+@c00022
+[color] 5
+main.CPU.P[7:0]
+@28
+[color] 5
+(0)main.CPU.P[7:0]
+[color] 5
+(1)main.CPU.P[7:0]
+[color] 5
+(2)main.CPU.P[7:0]
+[color] 5
+(3)main.CPU.P[7:0]
+[color] 5
+(4)main.CPU.P[7:0]
+[color] 5
+(5)main.CPU.P[7:0]
+[color] 5
+(6)main.CPU.P[7:0]
+[color] 5
+(7)main.CPU.P[7:0]
+@1401200
+-group_end
+@22
+[color] 6
+main.CPU.PC[15:0]
+@1000200
+-Regs
+@800200
+-PPU
+@22
+main.PPU.ADDR[15:0]
+@28
+main.PPU.div[1:0]
+main.PPU.RD
+main.PPU.WREQ
+@22
+main.PPU.DOUT[7:0]
+@1000200
+-PPU
+@22
+main.PPU.SRD[7:0]
+main.PPU.SAR[7:0]
+main.PPU.X[8:0]
+@28
+main.PPU.SpHit
+@22
+main.PPU.SRD[7:0]
+main.PPU.SAR[7:0]
+main.PPU.ns[3:0]
+main.PPU.HitLine[7:0]
+main.PPU.Y[8:0]
+@c00022
+main.PPU.faddr[12:0]
+@28
+(0)main.PPU.faddr[12:0]
+(1)main.PPU.faddr[12:0]
+(2)main.PPU.faddr[12:0]
+(3)main.PPU.faddr[12:0]
+(4)main.PPU.faddr[12:0]
+(5)main.PPU.faddr[12:0]
+(6)main.PPU.faddr[12:0]
+(7)main.PPU.faddr[12:0]
+(8)main.PPU.faddr[12:0]
+(9)main.PPU.faddr[12:0]
+(10)main.PPU.faddr[12:0]
+(11)main.PPU.faddr[12:0]
+(12)main.PPU.faddr[12:0]
+@1401200
+-group_end
+@22
+main.PPU.YVert[3:0]
+main.PPU.SpIcon[7:0]
+@28
+main.PPU.SpId[2:0]
+@22
+main.PPU.fdata[7:0]
+main.PPU.Sprite1.x[8:0]
+main.PPU.PPUX[8:0]
+[pattern_trace] 1
+[pattern_trace] 0
